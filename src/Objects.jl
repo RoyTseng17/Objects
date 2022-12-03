@@ -1,6 +1,6 @@
 module Objects
 
 export 
-Job
+    Job
     include("./Job.jl")
 end # module
