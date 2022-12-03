@@ -1,0 +1,7 @@
+name = "Objects"
+uuid = "90e75a76-a87a-4167-8040-04bd1765cfb1"
+authors = ["Roy Tseng <stu1216454162002@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
