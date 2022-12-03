@@ -1,6 +1,6 @@
 module Objects
 
 export 
-    Task
-    include("./Task.jl")
+Job
+    include("./Job.jl")
 end # module
