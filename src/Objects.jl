@@ -1,6 +1,6 @@
 module Objects
 
-export Order, Operation
+export Order, Operation, Job
     """
     Job工作
     Job 可以是工單、行程、任務、工作 任何想要排程的物件。
@@ -20,7 +20,7 @@ export Order, Operation
         id::String #工作的id
         info::Dict{Any} #交期 #產品號
     end
-    mutable struct Task
+    mutable struct Job
         id::String 
         info::Dict{Any}
     end
