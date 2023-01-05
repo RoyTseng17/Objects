@@ -20,4 +20,8 @@ export Order, Operation
         id::String #工作的id
         info::Dict{Any} #交期 #產品號
     end
+    mutable struct Task
+        id::String 
+        info::Dict{Any}
+    end
 end # module
